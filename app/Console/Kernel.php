@@ -24,11 +24,9 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        /* TODO unblock
         $schedule->command('fetch_gios')
             ->hourlyAt(10)
             ->withoutOverlapping();
-        */
     }
 
     /**
